@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221509251835",
+    "firebase_url": "https://merit-e54c4.firebaseio.com",
+    "project_id": "merit-e54c4",
+    "storage_bucket": "merit-e54c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221509251835:android:e435932b304846b150b65e",
+        "android_client_info": {
+          "package_name": "com.merit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221509251835-1eeiq16lapt4e824u6slmdm314433ens.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlYbjj42It1bVWnxkDp55woCcIWtxP0z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221509251835-1eeiq16lapt4e824u6slmdm314433ens.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

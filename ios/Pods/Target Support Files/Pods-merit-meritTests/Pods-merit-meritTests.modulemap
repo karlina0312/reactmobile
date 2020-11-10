@@ -1,0 +1,6 @@
+module Pods_merit_meritTests {
+  umbrella header "Pods-merit-meritTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
