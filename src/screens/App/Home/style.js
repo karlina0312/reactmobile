@@ -1,0 +1,118 @@
+import {StyleSheet, Dimensions} from 'react-native';
+
+export default StyleSheet.create({
+  engine: {
+    position: 'absolute',
+    right: 0,
+  },
+  main: {
+    width: '90%',
+    height: 60,
+    borderRadius: 10,
+    marginTop: '2%',
+    backgroundColor: '#116EE2',
+    marginHorizontal: '5%',
+    textAlignVertical: 'center',
+  },
+  scrollView: {
+    flex: 1,
+    marginTop: '7%',
+    marginBottom: 100,
+    marginHorizontal: '10%',
+  },
+  boldtext: {
+    fontSize: 18,
+    fontFamily: 'Arial',
+    marginTop: '0.5%',
+    color: '#2B3F55',
+    marginBottom: '2%',
+  },
+  maintext: {
+    fontSize: 15,
+    marginTop: '5%',
+    color: '#808080',
+    // alignSelf: 'center',
+    marginBottom: 30,
+  },
+  button: {
+    width: '80%',
+    height: 70,
+    backgroundColor: '#116EE2',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    position: 'absolute',
+    borderRadius: 13,
+    bottom: 20,
+    // bottom: '-10%',
+  },
+  popup: {
+    width: 326,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+    paddingVertical: '10%',
+  },
+  popupPayment: {
+    width: 326,
+    backgroundColor: '#FFF',
+    borderRadius: 10,
+  },
+  bold: {
+    textAlign: 'center',
+    fontSize: 23,
+    fontFamily: 'Roboto-Medium',
+    fontWeight: 'bold',
+  },
+  simple: {
+    textAlign: 'center',
+    fontSize: 14,
+    fontFamily: 'Helvetica',
+    paddingHorizontal: '10%',
+  },
+  popupButton: {
+    width: '80%',
+    height: 47,
+    backgroundColor: '#116EE2',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    borderRadius: 13,
+    marginTop: '8%',
+  },
+  popupText: {
+    alignSelf: 'center',
+    color: 'white',
+    fontSize: 17,
+    fontFamily: 'Roboto',
+  },
+  popupTextQuestion: {
+    alignSelf:'flex-start', 
+    paddingVertical: 5,
+    marginLeft: 25
+  },
+  popupTextQuestionNumber: {
+    alignSelf: 'flex-end', 
+    paddingVertical: 3, 
+    paddingHorizontal: 7, 
+    borderColor: '#fff', 
+    borderRadius: 13, 
+    borderWidth: 1,
+    overflow: 'hidden',
+    // backgroundColor:'#FEBB2C',
+    marginRight: 15
+  },
+  lilButton: {
+    width: 47,
+    height: 47,
+    backgroundColor: '#116EE2',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    borderRadius: 13,
+    marginTop: '8%',
+    marginHorizontal: '2%',
+  },
+  imageButton: {
+    width: 20,
+    height: 20,
+    justifyContent: 'center',
+    alignSelf: 'center',
+  },
+});
